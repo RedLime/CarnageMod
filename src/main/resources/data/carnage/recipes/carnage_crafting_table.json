@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "###",
+      "XLX",
+      "XDX"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:copper_ingot"
+      },
+      "X": {
+        "tag": "minecraft:planks"
+      },
+      "L": {
+        "item": "minecraft:lava_bucket"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "result": {
+      "item": "carnage:carnage_crafting_table"
+    }
+  }

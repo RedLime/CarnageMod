@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "carnage:carnage_block"
+    }
+  ],
+  "result": {
+    "item": "carnage:carnage_ingot",
+    "count": 9
+  }
+}

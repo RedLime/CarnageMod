@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+      "item": "carnage:cadrega_stone"
+    },
+    "result": "carnage:cadrega_stone_wall",
+    "count": 1
+  }

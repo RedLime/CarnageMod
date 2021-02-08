@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/stairs",
+    "textures": {
+      "bottom": "carnage:block/cadrega_stone_brick_old",
+      "top": "carnage:block/cadrega_stone_brick_old",
+      "side": "carnage:block/cadrega_stone_brick_old"
+    }
+}

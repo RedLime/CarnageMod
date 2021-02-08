@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "carnage:block/cadrega_stone_brick"
+    },
+    "facing=east": {
+      "model": "carnage:block/cadrega_stone_brick",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "carnage:block/cadrega_stone_brick",
+      "y": 180
+    },
+    "facing=west":{
+      "model": "carnage:block/cadrega_stone_brick",
+      "y": 270
+    }
+  }
+}

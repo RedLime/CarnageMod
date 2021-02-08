@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "carnage:block/cadrega_stone_brick_slab"
+        },
+        "type=double": {
+            "model": "carnage:block/cadrega_stone_brick"
+        },
+        "type=top": {
+            "model": "carnage:block/cadrega_stone_brick_slab_top"
+        }
+    }
+}

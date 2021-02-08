@@ -1,0 +1,61 @@
+{
+  "surface_builder": "carnage:cadrega",
+  "depth": 0.01,
+  "scale": 0.8,
+  "temperature": 0.2,
+  "downfall": 0.3,
+  "precipitation": "none",
+  "category": "none",
+  "player_spawn_friendly": true,
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 0,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color_modifier": "none",
+    "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:block",
+        "name": "minecraft:stone"
+      },
+      "probability": 0.2
+    }
+  },
+  "starts": [],
+  "spawners": {
+    "creature": [],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "carnage:carcano",
+        "weight": 1,
+        "minCount": 0,
+        "maxCount": 1
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+	  [],
+	  [],
+    [],
+	  [],
+	  [],
+	  [],
+	  [],
+	  [],
+	  [],
+	  []
+  ]
+}

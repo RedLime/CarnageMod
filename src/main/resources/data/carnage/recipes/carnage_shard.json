@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "carnage:carnage_piece"
+        },
+        {
+            "item": "carnage:carnage_piece"
+        },
+        {
+            "item": "carnage:carnage_piece"
+        },
+        {
+            "item": "carnage:carnage_piece"
+        }
+    ],
+    "result": {
+        "item": "carnage:carnage_shard",
+        "count": 1
+    }
+}

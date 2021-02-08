@@ -1,0 +1,46 @@
+{
+    "bedrock_roof_position": -1000,
+    "bedrock_floor_position": -1000,
+    "sea_level": 0,
+    "disable_mob_generation": true,
+    "default_block": {
+        "Name": "carnage:cadrega_stone"
+    },
+    "default_fluid": {
+        "Name": "minecraft:air"
+    },
+    "noise": {
+        "min_y": 0,
+        "height": 128,
+        "density_factor": 0,
+        "density_offset": 0,
+        "size_horizontal": 2,
+        "size_vertical": 1,
+        "simplex_surface_noise": true,
+        "sampling": {
+          "xz_scale": 2,
+          "y_scale": 1,
+          "xz_factor": 80,
+          "y_factor": 160
+        },
+        "bottom_slide": {
+          "target": -30,
+          "size": 7,
+          "offset": 1
+        },
+        "top_slide": {
+          "target": -3000,
+          "size": 64,
+          "offset": -46
+        }
+    },
+    "structures": {
+      "structures": {
+        "carnage:cadrega_dungeon": {
+          "spacing": 48,
+          "separation": 24,
+          "salt": 14357619
+        }
+      }
+    }
+}

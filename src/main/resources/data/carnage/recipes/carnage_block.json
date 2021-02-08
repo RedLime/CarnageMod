@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "111",
+      "111",
+      "111"
+    ],
+    "key": {
+      "1": {
+        "item": "carnage:carnage_ingot"
+      }
+    },
+    "result": {
+      "item": "carnage:carnage_block",
+      "count": 1
+    }
+  }

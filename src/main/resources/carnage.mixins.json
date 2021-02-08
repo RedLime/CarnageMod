@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.redlimerl.carnage.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MultihitMixinJava",
+    "LivingEntityMixinJava"
+  ],
+  "client": [
+    "ArmorItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

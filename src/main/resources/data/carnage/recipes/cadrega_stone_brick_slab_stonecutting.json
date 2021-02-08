@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+      "item": "carnage:cadrega_stone_brick"
+    },
+    "result": "carnage:cadrega_stone_brick_slab",
+    "count": 2
+  }

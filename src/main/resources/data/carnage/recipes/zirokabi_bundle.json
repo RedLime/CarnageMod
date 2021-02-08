@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "-#-",
+      "# #",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "carnage:zirokabi_membrane"
+      },
+      "-": {
+        "item": "minecraft:string"
+      }
+    },
+    "result": {
+      "item": "carnage:zirokabi_bundle"
+    }
+  }

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "carnage:cadrega_stone"
+      }
+    },
+    "result": {
+      "item": "carnage:cadrega_stone_wall",
+      "count": 6
+    }
+  }

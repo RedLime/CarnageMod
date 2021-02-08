@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "X X",
+      "XXX",
+      "XXX"
+    ],
+    "key": {
+      "X": {
+        "item": "carnage:carnage_ingot"
+      }
+    },
+    "result": {
+      "item": "carnage:carnage_chestplate"
+    }
+  }

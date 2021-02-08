@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "carnage",
+  "version": "${version}",
+
+  "name": "Carnage Mod",
+  "description": "a Huge changes of Minecraft!",
+  "authors": [
+    "RedLime"
+  ],
+  "contact": {
+    "homepage": "https://redlimerl.com/",
+    "sources": "https://github.com/RedLime/carnage-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/carnage/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.redlimerl.carnage.CarnageMod"
+    ],
+    "client": [
+      "com.redlimerl.carnage.CarnageMod"
+    ]
+  },
+  "mixins": [
+    "carnage.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "fabric-language-kotlin": ">=1.4.30",
+    "minecraft": "1.17.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

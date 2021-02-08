@@ -1,0 +1,8 @@
+{
+    "type": "smelting",
+    "ingredient": {
+      "item": "carnage:carnage_ore"
+    },
+    "result": "carnage:carnage_piece",
+    "cookingtime": 100
+}

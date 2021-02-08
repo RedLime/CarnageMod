@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:default",
+    "config": {
+      "top_material": {
+        "Name": "carnage:cadrega_patch_stone"
+      },
+      "under_material": {
+        "Name": "carnage:cadrega_stone"
+      },
+      "underwater_material": {
+        "Name": "carnage:cadrega_stone"
+      }
+    }
+  }
