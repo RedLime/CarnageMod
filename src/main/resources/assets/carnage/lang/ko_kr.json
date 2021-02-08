@@ -10,7 +10,7 @@
   "item.carnage.carnage_chestplate": "카네이지 흉갑",
   "item.carnage.carnage_leggings": "카네이지 바지",
   "item.carnage.carnage_boots": "카네이지 부츠",
-  "item.carnage.carnage_shard": "카네이지 조각",
+  "item.carnage.carnage_shard": "카네이지 파편",
   "item.carnage.end_shard": "엔드 조각",
   "item.carnage.carcano_spawn_egg": "Carcano 스폰알",
   "item.carnage.killbot_spawn_egg": "Killbot 스폰알",
@@ -47,7 +47,7 @@
   "entity.carnage.killbot": "Killbot",
   "entity.carnage.carcano": "Carcano",
   "entity.carnage.zirokabi": "Zirokabi",
-  "entity.carnage.The Rupture": "The Rupture",
+  "entity.carnage.the_rupture": "The Rupture",
 
   "enchantment.carnage.multihit": "멀티히트"
 }
