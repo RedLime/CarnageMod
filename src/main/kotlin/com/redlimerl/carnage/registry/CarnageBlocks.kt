@@ -18,8 +18,8 @@ import net.minecraft.util.registry.Registry
 class CarnageBlocks {
 
     companion object {
-        val CARNAGE_BLOCK = Block(FabricBlockSettings.of(Material.METAL).strength(25f).breakByTool(FabricToolTags.PICKAXES, 4).requiresTool().sounds(BlockSoundGroup.METAL))
-        val CARNAGE_ORE = Block(FabricBlockSettings.of(Material.STONE).strength(20f).breakByTool(FabricToolTags.PICKAXES, 4).requiresTool().sounds(BlockSoundGroup.STONE))
+        val CARNAGE_BLOCK = Block(FabricBlockSettings.of(Material.METAL).strength(25f).breakByTool(FabricToolTags.PICKAXES, 3).requiresTool().sounds(BlockSoundGroup.METAL))
+        val CARNAGE_ORE = Block(FabricBlockSettings.of(Material.STONE).strength(20f).breakByTool(FabricToolTags.PICKAXES, 3).requiresTool().sounds(BlockSoundGroup.STONE))
         val CARNAGE_TABLE = CarnageCraftingTable(FabricBlockSettings.of(Material.METAL).strength(6.5f).breakByTool(FabricToolTags.PICKAXES, 3).requiresTool().sounds(BlockSoundGroup.METAL))
 
         val CADREGA_PORTAL = TheRuptureSpawnBlock(FabricBlockSettings.of(Material.STONE).strength(30f).breakByTool(FabricToolTags.PICKAXES, 5).requiresTool().sounds(BlockSoundGroup.STONE))
