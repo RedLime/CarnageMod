@@ -42,7 +42,7 @@ class TheRuptureEntity(entityType: EntityType<out VexEntity>?, world: World?) : 
     companion object {
         fun createAttributes(): DefaultAttributeContainer.Builder? {
             return HostileEntity.createHostileAttributes().add(EntityAttributes.GENERIC_MAX_HEALTH, 400.0).add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 1.15)
-                    .add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 13.0).add(EntityAttributes.GENERIC_ARMOR, 10.0)
+                    .add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 10.0).add(EntityAttributes.GENERIC_ARMOR, 10.0)
         }
     }
 

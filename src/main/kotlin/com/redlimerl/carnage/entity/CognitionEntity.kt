@@ -53,7 +53,7 @@ class CognitionEntity(entityType: EntityType<out HostileEntity>?, world: World?)
         val f = target.z - this.z
         val g = MathHelper.sqrt(d * d + f * f).toDouble()
         persistentProjectileEntity.setVelocity(d, e + g * 0.20000000298023224, f, 1.6f, (14 - world.difficulty.id * 4).toFloat()*2)
-        persistentProjectileEntity.damage = persistentProjectileEntity.damage * 3
+        persistentProjectileEntity.damage = persistentProjectileEntity.damage * 2.5
         playSound(SoundEvents.ENTITY_SKELETON_SHOOT, 1.0f, 1.0f / (getRandom().nextFloat() * 0.4f + 0.8f))
         world.spawnEntity(persistentProjectileEntity)
     }

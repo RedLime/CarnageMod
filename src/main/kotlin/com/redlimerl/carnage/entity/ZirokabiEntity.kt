@@ -30,7 +30,7 @@ class ZirokabiEntity(entityType: EntityType<out PhantomEntity>, world: World?) :
         fun createAttributes(): DefaultAttributeContainer.Builder? {
             return createHostileAttributes().add(EntityAttributes.GENERIC_FOLLOW_RANGE, 35.0)
                     .add(EntityAttributes.GENERIC_MAX_HEALTH, 30.0).add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.45)
-                    .add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 12.0).add(EntityAttributes.GENERIC_ARMOR, 8.0)
+                    .add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 9.0).add(EntityAttributes.GENERIC_ARMOR, 8.0)
         }
     }
 

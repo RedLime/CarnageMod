@@ -39,7 +39,7 @@ class KillbotEntity(entityType: EntityType<out HostileEntity>?, world: World?) :
 
     private var lastFuseTime = 0
     private var currentFuseTime = 0
-    private var fuseTime = 35
+    private var fuseTime = 55
     private var explosionRadius = 7
 
     init {
@@ -73,7 +73,7 @@ class KillbotEntity(entityType: EntityType<out HostileEntity>?, world: World?) :
         fun createAttributes(): DefaultAttributeContainer.Builder? {
             return createHostileAttributes()
                 .add(EntityAttributes.GENERIC_MAX_HEALTH, 10.0).add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.65)
-                .add(EntityAttributes.GENERIC_ARMOR, 20.0)
+                .add(EntityAttributes.GENERIC_ARMOR, 0.0)
         }
     }
 

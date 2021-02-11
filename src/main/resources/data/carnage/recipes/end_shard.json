@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "carnage:end_piece"
+        },
+        {
+            "item": "carnage:end_piece"
+        },
+        {
+            "item": "carnage:end_piece"
+        },
+        {
+            "item": "carnage:end_piece"
+        }
+    ],
+    "result": {
+        "item": "carnage:end_shard",
+        "count": 1
+    }
+}

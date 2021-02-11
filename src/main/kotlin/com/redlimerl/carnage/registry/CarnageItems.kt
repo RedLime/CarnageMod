@@ -34,6 +34,7 @@ class CarnageItems {
         val CARNAGE_LEGGINGS = ArmorItem(CarnageArmorMaterials.INSTANCE, EquipmentSlot.LEGS, CarnageItems().group.fireproof())
         val CARNAGE_BOOTS = ArmorItem(CarnageArmorMaterials.INSTANCE, EquipmentSlot.FEET, CarnageItems().group.fireproof())
 
+        val END_PIECE = Item(CarnageItems().group)
         val END_SHARD = Item(CarnageItems().group)
 
         val CARCANO_SPAWN_EGG = SpawnEggItem(CarnageEntities.CARCANO, 0x707070, 0x214700, CarnageItems().group)
@@ -71,6 +72,7 @@ class CarnageItems {
             Registry.register(Registry.ITEM, CarnageMod.identifier("carnage_leggings"), CARNAGE_LEGGINGS)
             Registry.register(Registry.ITEM, CarnageMod.identifier("carnage_boots"), CARNAGE_BOOTS)
             Registry.register(Registry.ITEM, CarnageMod.identifier("carnage_shard"), CARNAGE_SHARD)
+            Registry.register(Registry.ITEM, CarnageMod.identifier("end_piece"), END_PIECE)
             Registry.register(Registry.ITEM, CarnageMod.identifier("end_shard"), END_SHARD)
             Registry.register(Registry.ITEM, CarnageMod.identifier("carcano_spawn_egg"), CARCANO_SPAWN_EGG)
             Registry.register(Registry.ITEM, CarnageMod.identifier("killbot_spawn_egg"), KILLBOT_SPAWN_EGG)

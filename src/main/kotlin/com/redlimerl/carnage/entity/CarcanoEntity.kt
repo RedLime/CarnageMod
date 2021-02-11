@@ -70,7 +70,7 @@ class CarcanoEntity(entityType: EntityType<out HostileEntity>?, world: World?) :
         fun createAttributes(): DefaultAttributeContainer.Builder? {
             return createHostileAttributes().add(EntityAttributes.GENERIC_FOLLOW_RANGE, 35.0)
                     .add(EntityAttributes.GENERIC_MAX_HEALTH, 50.0).add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.45)
-                    .add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 10.0).add(EntityAttributes.GENERIC_ARMOR, 8.0)
+                    .add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 7.0).add(EntityAttributes.GENERIC_ARMOR, 8.0)
                     .add(EntityAttributes.ZOMBIE_SPAWN_REINFORCEMENTS, 0.0)
         }
     }
