@@ -45,7 +45,7 @@ class CarnageMod : ModInitializer, ClientModInitializer {
         CarnageItems.registry()
         CarnageBlocks.registry()
 
-        CarnageLoots.registry()
+        CarnageEvents.registry()
 
         CarnageBiome.registry()
 
