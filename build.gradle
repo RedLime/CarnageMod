@@ -17,7 +17,8 @@ minecraft {
 
 repositories {
     maven { url = "http://maven.fabricmc.net/" }
-    maven { url "https://dl.bintray.com/kyrptonaught/customportalapi" }
+    //maven { url "https://dl.bintray.com/kyrptonaught/customportalapi" }
+    maven { url = "file://D:/RedLime/workspace/tmp-repo"}
 }
 
 dependencies {
@@ -35,11 +36,8 @@ dependencies {
     // You may need to force-disable transitiveness on them.
 
 
-    //modImplementation 'net.kyrptonaught:customportalapi:0.0.1-beta21-1.17'
-    //include 'net.kyrptonaught:customportalapi:0.0.1-beta21-1.17'
-    modImplementation fileTree(dir: '.libs', include: ['*.jar'])
-    include fileTree(dir: '.libs', include: ['*.jar'])
-    compile fileTree(dir: '.libs', include: ['*.jar'])
+    modImplementation 'net.kyrptonaught:customportalapi:0.0.1-beta22-1.17'
+    include 'net.kyrptonaught:customportalapi:0.0.1-beta22-1.17'
 }
 
 processResources {
